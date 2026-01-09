@@ -1,5 +1,5 @@
 +++
-title = "List of posts"
+title = "Posts"
 sort_by = "date"
 +++
 

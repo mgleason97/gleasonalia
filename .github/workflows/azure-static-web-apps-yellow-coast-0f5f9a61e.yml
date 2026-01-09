@@ -32,6 +32,11 @@ jobs:
                const coredemo = require('@actions/core')
                return await coredemo.getIDToken()
            result-encoding: string
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.21.0
+      - name: Build Static Site
+        run: zola build
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1

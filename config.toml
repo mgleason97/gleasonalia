@@ -2,14 +2,26 @@ base_url = "https://gleasonalia.com"
 
 title = "gleason-alia"
 description = "A collection of miscellaneous thoughts"
+author = "Michael Gleason"
+theme = "tabi"
 
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
+build_search_index = true
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+
 
 [markdown]
 highlight_code = true
+highlight_theme = "css"
+smart_punctuation = true
 
 [extra]
+theme_switcher = true
+skin = "mint"
+copy_button = true
+
+menu = [
+    { name = "about", url = "about", trailing_slash = true },
+    { name = "github", url = "https://github.com/mgleason97", trailing_slash = false },
+]
+

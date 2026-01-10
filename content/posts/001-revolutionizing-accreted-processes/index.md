@@ -26,6 +26,7 @@ The "complexity" we might have to manage when trying to automate some process ca
 - you can track the progress of your request by querying this table
 - the source of truth for the current state is shaky so you should cross reference with these other sources maintained by other teams and the systems they own
 - a dashboard is populated by a particular query, so data has to be ingested to this table (which you need to request permission to)
+"Complexity" is in quotes here because none of these points are directly tied to performing the intended operational task. They are layers of complexity we whisked up for some reason or another over time.
 
 All of that to perform a single "step" of the process. Now if you have multiple systems that need to perform this step, you have to make sure they're all performing the same incantations in the same order. If we need to change one of the interactions (we want to create tickets in a different queue or read data from a regional table), we have to  carry out that update everywhere.
 

@@ -20,8 +20,7 @@ nav_title = "<em>gleasonalia</em>"
 theme_switcher = true
 skin = "mint"
 copy_button = true
-
+stylesheets = ["custom.css"]
 menu = [
     { name = "github", url = "https://github.com/mgleason97", trailing_slash = false },
 ]
-

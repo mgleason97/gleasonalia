@@ -1,6 +1,6 @@
 base_url = "https://yellow-coast-0f5f9a61e.2.azurestaticapps.net"
 
-title = "gleason-alia"
+title = "gleasonalia"
 description = "A collection of miscellaneous thoughts"
 author = "Michael Gleason"
 theme = "tabi"
@@ -16,6 +16,7 @@ highlight_theme = "css"
 smart_punctuation = true
 
 [extra]
+nav_title = "<em>gleasonalia</em>"
 theme_switcher = true
 skin = "mint"
 copy_button = true

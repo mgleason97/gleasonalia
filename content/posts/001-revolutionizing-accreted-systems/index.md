@@ -1,7 +1,7 @@
 +++
 title = "Revolutionizing Accreted Systems"
 description = "From incantations to intent"
-date = 2026-01-09
+date = 2026-01-10
 +++
 
 I recently came across Bryan Cantrill's talk ["The Complexity of Simplicity"](https://www.youtube.com/watch?v=Cum5uN2634o) in which he categorizes systems based on their complexity, discussing their qualities and risks. This was really insightful as I found he was giving me the language to express my own frustrations with certain systems and motivations for desiring others. So, I'd like to take this newfound lens and apply it to a particular system I have unknowingly been trying to revolutionize for the past couple of months.

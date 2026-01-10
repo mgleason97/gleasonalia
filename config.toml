@@ -22,7 +22,6 @@ skin = "mint"
 copy_button = true
 
 menu = [
-    { name = "about", url = "about", trailing_slash = true },
     { name = "github", url = "https://github.com/mgleason97", trailing_slash = false },
 ]
 

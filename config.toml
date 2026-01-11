@@ -16,11 +16,17 @@ highlight_theme = "css"
 smart_punctuation = true
 
 [extra]
-nav_title = "<em>gleasonalia</em>"
 theme_switcher = true
 skin = "mint"
 copy_button = true
+post_listing_date = "both"
 stylesheets = ["custom.css"]
+
 menu = [
-    { name = "github", url = "https://github.com/mgleason97", trailing_slash = false },
+    { name = "about", url = "about", trailing_slash = true },
+]
+
+socials = [
+    { name = "linkedin", url = "https://www.linkedin.com/in/michael-j-gleason/", icon = "linkedin" },
+    { name = "github", url = "https://github.com/mgleason97", icon = "github" },
 ]
